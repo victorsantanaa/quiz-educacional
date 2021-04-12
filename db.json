@@ -1,0 +1,69 @@
+{
+    "bg": "https://cristianethiel.com.br/wp-content/uploads/2019/06/Quiz-de-Personalidade.png",
+    "title": "Quiz Teste",
+    "description": "Teste de quiz",
+    "questions": [
+      {
+        "image": "https://www.ufrgs.br/icd/wp-content/uploads/2014/08/beyin-1024x1012.jpg",
+        "title": "Questão 1 de teste",
+        "description": "Essa é a descrição da questão 1 do questionário.",
+        "answer": 1,
+        "alternatives": [
+          "Alternativa 1",
+          "Alternativa 2",
+          "Alternativa 3",
+          "Alternativa 4"
+        ]
+      },
+      { 
+        "image": "https://www.ufrgs.br/icd/wp-content/uploads/2014/08/beyin-1024x1012.jpg",
+        "title": "Questão 2 de teste",
+        "description": "Descrição da questão 2 de teste do questionário.",
+        "answer": 2,
+        "alternatives": [
+          "Alternativa 1",
+          "Alternativa 2",
+          "Alternativa 3",
+          "Alternativa 4"
+        ]
+      },
+      { 
+        "image": "https://www.ufrgs.br/icd/wp-content/uploads/2014/08/beyin-1024x1012.jpg",
+        "title": "Questão 3 de teste",
+        "description": "Descrição da questão 3 de teste.",
+        "answer": 3,
+        "alternatives": [
+          "Alternativa 1",
+          "Alternativa 2",
+          "Alternativa 3",
+          "Alternativa 4"
+        ]
+      }
+    ],
+    "external": [
+      ""
+    ],
+    "theme": {
+      "colors": {
+        "primary": "#3c4e3c",
+        "secondary": "#a47d57",
+        "mainBg": "#37473c",
+        "contrastText": "#FFFFFF",
+        "wrong": "#FF5722",
+        "success": "#4CAF50"
+      },
+      "borderRadius": "4px"
+    },
+
+    "themeHalloween": {
+        "colors": {
+          "primary": "#6a1b9a",
+          "secondary": "#283593",
+          "mainBg": "#4a126b",
+          "contrastText": "#FFFFFF",
+          "wrong": "#FF5722",
+          "success": "#4CAF50"
+        },
+        "borderRadius": "4px"
+      }
+  }

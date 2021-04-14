@@ -51,7 +51,13 @@ export default function Home() {
               router.push(`/quiz?name=${name}`);
             }}
             >
-              <Button type="submit">
+              <Input
+                name="nomeDoUsuario"
+                onChange={(infosDoEvento) => setName(infosDoEvento.target.value)}
+                placeholder="Aluno digite seu nome"
+                value={name}
+              />
+              <Button type="submit" disabled={name.length === 0}>
                 Iniciar questionário.
               </Button>
             </form>
